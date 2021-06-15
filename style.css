@@ -1,0 +1,714 @@
+body{
+    cursor: pointer;
+}
+
+.header{
+    align-items: center;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    padding: 10px 0px;
+    border-bottom: 1px solid #7510F7;
+}
+
+.header_name{
+    display: flex;
+    align-items: center;
+}
+
+.header_name > button{
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 2px solid blueviolet;
+    background-color: transparent;
+    margin-left: 30px;
+
+}
+
+.header_name > a  {
+    text-decoration: none;
+    color: black;
+
+}
+
+.header_name > button:hover{
+   background-color: blueviolet;
+   color: white;
+   box-shadow: blueviolet 0px 0px 10px 1px;
+}
+
+.header > h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.title_sec{
+    height: 90vh;
+    /* border: 1px solid black; */
+    margin-top: 8%;
+}
+
+.body_sec{
+    border-radius: 20px;
+    padding: 100px 0px;
+    background-color: #7510F7;
+    display: flex;
+    justify-content: center;
+}
+.intro{
+    width: 600px;
+}
+
+.intro {
+    color: white;
+}
+
+
+.main_card_container{
+  display: flex;
+  justify-content: center;
+}
+.cards_container{
+    width: 100%;
+    display: flex;
+    border: 1px solid gainsboro;
+    border-radius: 30px;
+    position: relative;
+    top: -70px;
+    background-color: white;
+    
+}
+
+.cards_1 , .cards_2{
+    border-right:1px solid gainsboro;
+}
+
+.cards_container img{
+    margin: 40px;
+}
+
+.cards_1 , .cards_2 , .cards_3{
+    padding: 30px 0px;
+
+}
+
+.cards_container  h5{
+    margin-top: 40px;
+    color: blueviolet;
+    font-weight:400;
+
+}
+
+.cards_3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards_3 > h2 {
+    margin-top: 30px;
+}
+
+.skill > div{
+    width: 250px;
+    height: 12px;
+    border-radius: 30px;
+}
+.skill div > div {
+    height: 100%;
+    background: linear-gradient(to left, #F2789c , #FF9472);
+    box-shadow: 0 3px 3px -5px #F2789C , 0 2px 5px #F2789C;
+    width: 0%;
+    transition: width 1s;
+}
+
+.icon{
+    font-size: 54px;
+    color: blueviolet;
+    margin-top: 20px;
+}
+
+.skill{
+    margin-top: 40px;
+}
+
+.skill > p {
+    font-weight: 500;
+}
+
+.work > h1 {
+    font-weight: 800;
+}
+
+.work > p{
+    font-weight: 500;
+}
+
+.work_card{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recent_work_card{
+    border: none;
+    box-shadow: gray 10px 10px 20px 1px;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 0px 30px;
+    height: 220px;
+    width: 220px;
+    transition: all 1s;
+}
+.recent_work_card:hover{
+    transform: scale(1.1);
+    box-shadow: gray 0px 0px 10px 1px;
+}
+
+.recent_work_card > h2 {
+    margin-top: 30%;
+    color: white;
+    font-weight: 800;
+}
+
+.onhover_info > h3 {
+    margin-top: 15%;
+    color: white;
+    font-weight: 800;
+}
+
+.onhover_info > p{
+    font-weight: 800;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.onhover_info  button {
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    box-shadow: gainsboro 0px 0px 10px 1px;
+}
+
+.wrk_1{
+    background: url(https://i.insider.com/60621dbf67187800184ad1e8?width=700);
+    background-size: cover;
+}
+
+.wrk_2{
+    background: url(https://content.techgig.com/thumb/msid-75430401,width-860,resizemode-4/5-tips-for-students-to-improve-coding-skills-during-college.jpg?58220);
+    background-size: cover;
+}
+
+.wrk_3{
+background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLhu4XKNoUHHq6LcUGMljoCeiYfuTmETf5Cg&usqp=CAU);
+    background-size: cover;
+}
+
+
+
+.onhover_info{
+    display: none;
+}
+.educ_table{
+    display: flex;
+}
+.scale {
+    margin-left: 7px;
+    height: 100px;
+    background-color: gold;
+    width: 1px;
+}
+
+
+.educ_table {
+    width: 250px;
+    box-shadow: gainsboro 10px 10px 10px 1px;
+    margin-bottom: 40px;
+    transition: all 1s;
+    padding: 10px;
+    margin-left: 50px;
+} 
+
+.educ_table:hover {
+    box-shadow: gainsboro 0px 0px 20px 2px;
+   
+} 
+.education{
+    justify-content: center;
+    display: flex;
+}
+.edu_info{
+    height: 150px;
+    text-align: center;
+}
+.edu_info h6 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+.edu_info > p:nth-child(2){
+    background-color: gainsboro;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+.edu_info > p:nth-child(1) {
+    margin-top: 50px;
+}
+
+.educ_title {
+    margin-bottom: 80px;
+     text-align: center;
+     border-top: gainsboro 0px 10px 10px 1px;
+     border-bottom: 1px solid black;
+     border-radius: 30px;   
+    box-shadow: gainsboro 0px 10px 10px 1px;
+    background-color:#7510F7;
+    color: white;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.educ_title > h1 {
+    padding: 10px 0px;
+  
+}
+
+.banner{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    background: #7510F7;
+    border-radius: 30px;
+    align-items: center;
+    height: 150px;
+}
+
+.banner_main{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.banner > h1 {
+    font-weight: 800;
+    color: white;
+}
+
+.banner > p {
+    color: white;
+}
+
+.banner  button {
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px;
+    transition: all 1s;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.banner  button:hover {
+   background-color: white;
+   box-shadow: #7510F7 10px 0px 10px 2px;
+   transform: scale(1.1);
+   color: black;
+}
+
+/* contact */
+.info_{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    
+    margin: auto;
+    position: relative;
+    padding: 70px 40px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+
+.container h2 {
+    color: #111;
+    margin-bottom: 45px;
+    line-height: 1em;
+    font-weight: 500;
+    padding-left: 10px;
+    border-left: 5px solid #e91e63;
+}
+
+.container .inputBox{
+    position: relative;
+    width: 300px;
+    height: 46px;
+    margin: 0px 20px 35px 20px;
+}
+
+.additional_info{
+        top: 20px;
+}
+
+.additional_info input{
+    
+   height: 150px;
+    
+}
+.container .inputBox:last-child{
+    margin-bottom: 0;
+}
+
+.container .inputBox input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 1px solid #111;
+    background: transparent;
+    padding: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #111;
+    font-weight: 300;
+}
+
+.container .inputBox span{
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    padding: 10px;
+    display: inline-block;
+    font-size: 16px;
+    color: #111;
+    font-weight: 300;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.container .inputBox input:focus ~ span,
+.container .inputBox input:valid ~ span
+{
+    transform: translateX(-10px)translateY(-32px);
+    font-size: 12px;
+}
+
+.container .inputBox input[type="submit"]{
+    background: #2196f3;
+    color: white;
+    border: none;
+    max-width: 120px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.container .inputBox input[type="submit"]:hover{
+    background: #e91e63;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact_info{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px 0px 0px;
+    align-items: center;
+}
+.contact_info > h2{
+       font-family: 'Times New Roman', Times, serif;
+       font-weight: 800;
+}
+.contact h1 {
+    font-weight: 800;
+}
+
+.contact_info a{
+    font-size: 30px;
+    color: blueviolet;
+}
+.submit_btn{
+   left: 400px;
+}
+
+
+.footer{
+    background-color: #7510F7;
+    margin-top: 30px;
+    border-top-left-radius:30px ;
+    border-top-right-radius: 30px;
+    text-align: center;
+    padding: 50px;
+}
+
+.footer_icon  i{
+    font-size: 24px;
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 100px;
+    border: 2px solid whitesmoke;
+}
+.footer_icon a{
+    color: rgb(34, 33, 33);
+}
+
+.footer_icon  i:hover{
+    color: darkslateblue;
+    background-color: white;
+    box-shadow: white 0px 0px 10px 2px;
+}
+
+.footer > p {
+    margin-top: 40px;
+    font-weight: 800;
+    color: white;
+}
+
+.footer > h7{
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 20px;
+    color: #7510F7;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.interest_title{
+    background-color: #7510F7;
+    text-align: center;
+    padding: 20px 0px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+.para{
+    position: absolute;
+    right: -20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: black;
+    top: 50%;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    transform: translateY(-50%) rotateX(180deg) rotateY(180deg);
+
+}
+
+.interest{
+   
+    margin: 135px 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.name{
+    background-color: white;
+    color: blueviolet;
+    padding: 2px 10px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.interest_box{
+    width: 200px;
+    height: 250px;
+    border: 1px solid;
+    margin: 0px 20px;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid gainsboro;
+    box-shadow: gainsboro 10px 0px 10px 2px;
+    transition:box-shadow 1s;
+}
+
+.interest_box:hover{
+    box-shadow: gainsboro 0px 0px 20px 2px;
+
+}
+.interest_box > h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.interest_box > img{
+    border-radius: 30px;
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid gray;
+}
+
+
+/* sidebar */
+
+.sidebar_path{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background:rgba(255, 255, 255, 0.05);
+}
+
+.sidebar_progress{
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 10px;
+      height: 50%;
+      background: linear-gradient(to top , #008aff,#00ffe7);
+      animation: animate 5s linear infinite;
+    }
+
+    .sidebar_progress:before,
+.sidebar_progress:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff,#00ffe7);
+}
+
+.percent{
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%) rotateX(180deg) rotateY(180deg);
+    right: 15px;
+    font-weight: 700;
+    font-size: 1em;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+}
+
+.sidebar_progress:after{
+    filter: blur(10px);
+}
+    @keyframes animate{
+        0%,100%{
+            filter: hue-rotate(0deg);
+        }
+        50%{
+            filter: hue-rotate(360deg);
+        }
+    }
+ 
+::-webkit-scrollbar{
+    width: 0;
+}
+
+
+
+/* ///////////////////////////////////////// */
+
+@media only screen and (max-width: 600px) {
+    .cards_container{
+        flex-direction: column;
+    }
+    .work_card{
+        flex-direction: column;
+    }
+    .recent_work_card{
+        margin: 20px 0px;
+    }
+
+    .education{
+
+        flex-direction: column;
+        align-items: center;
+    }
+    .educ_table{
+        margin-top: 10;
+    }
+    .submit_btn{
+        top: 100px;
+        left: 0;
+    }
+    .container{
+        height: 115vh;
+        margin-bottom: -50px;
+    }
+
+    .contact_info h3{
+        font-size: 20px;
+    }
+
+    .interest{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0px;
+    }
+    .interest_box{
+        margin: 10px 0px;
+    }
+
+    .banner{
+        display: flex;
+        justify-content: space-around;
+        height: 100px;
+        padding: 0px 10px;
+    }
+    .banner  p{
+        margin-right:40px ;
+        width: 100px;
+        font-size: 10px;
+    }
+    .banner  h1{
+           font-size: 18px;
+    }
+    .banner  button{
+        font-size: 12px;
+    }
+     
+    .footer{
+
+        padding: 0px 0px 30px 0px;
+    }
+    .cards_1, .cards_2, .cards_3 {
+        border-radius: 30px;
+        border-bottom: 1px solid blueviolet;
+    }
+    .header_name  button > h6 {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    
+    
+    .title_sec > img{
+        margin-top: 50px;
+          width: 100%;
+    }
+
+    .title_sec > p {
+        margin-top: 30px;
+    }
+    .footer_icon{
+        padding: 40px 0px;
+    }
+
+    .para{
+        top: 80%;
+    }
+    
+    .footer_icon > i:nth-child(4){
+         display: none;
+    }
+    .footer > p{
+        margin-top: 0;
+    }
+
+   
+  }
+  

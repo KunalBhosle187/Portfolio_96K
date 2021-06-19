@@ -353,15 +353,7 @@ background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLhu4XKNoU
     margin: 0px 20px 35px 20px;
 }
 
-.additional_info{
-        top: 20px;
-}
 
-.additional_info input{
-    
-   height: 150px;
-    
-}
 .container .inputBox:last-child{
     margin-bottom: 0;
 }
@@ -633,12 +625,11 @@ background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLhu4XKNoU
         margin-top: 10;
     }
     .submit_btn{
-        top: 100px;
         left: 0;
     }
     .container{
-        height: 115vh;
-        margin-bottom: -50px;
+        height: 100vh;
+        margin-bottom: 50px;
     }
 
     .contact_info h3{
